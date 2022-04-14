@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Masuk ke Akun Saya</name>
    <tag></tag>
-   <elementGuidId>71941637-3177-4232-b65c-7f6471d12358</elementGuidId>
+   <elementGuidId>12ce54b3-e0e3-4eec-b56c-f8f677f6fc8f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

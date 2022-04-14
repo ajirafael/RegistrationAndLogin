@@ -3,7 +3,7 @@
    <description></description>
    <name>input_No. Handphone_phone</name>
    <tag></tag>
-   <elementGuidId>09227e0d-4187-4a5e-9286-e80f3fced531</elementGuidId>
+   <elementGuidId>fc1bb73a-c2f7-4453-bd19-e697b0143ba2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Lanjutkan_1</name>
    <tag></tag>
-   <elementGuidId>cf88b13d-3576-4d00-9643-d47227b2d94e</elementGuidId>
+   <elementGuidId>8e3d6f98-bcdd-4c60-b059-6c7676bf1da4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

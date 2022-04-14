@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Lanjutkan</name>
    <tag></tag>
-   <elementGuidId>c1fc212e-13d8-4f93-9ce8-943d50992b58</elementGuidId>
+   <elementGuidId>f94a0e20-ea5b-470c-8416-4ad9cd1c1433</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -113,5 +113,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and @id = 'daftarAlami' and (text() = 'Lanjutkan ' or . = 'Lanjutkan ')]</value>
    </webElementXpaths>
 </WebElementEntity>

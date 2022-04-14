@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Pemberi Dana                           _b3d4b2</name>
+   <name>h5_Kebijakan Privasi  Ketentuan Pengguna</name>
    <tag></tag>
-   <elementGuidId>2e20202d-ae1d-40ad-a9b1-7af0ec6fe488</elementGuidId>
+   <elementGuidId>1f627e45-643d-45be-b80b-ad57d1e4d57c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih jenis akun Kamu'])[1]/following::div[3]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Registrasi Pemberi Dana'])[1]/following::h5[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.box</value>
+         <value>h5.mb-0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,67 +21,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>h5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>box</value>
+      <value>mb-0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                                    
-                                    Pemberi Dana
-                                    Gabung sebagaipemberi pembiayaan
-                                </value>
+      <value>Kebijakan Privasi &amp; Ketentuan Pengguna</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;page register&quot;]/main[@class=&quot;register&quot;]/div[@class=&quot;container text-center&quot;]/div[@class=&quot;row my-3 px-lg-3 px-4 d-flex align-items-center justify-content-center&quot;]/div[@class=&quot;col-sm-5 col-6 px-0 pr-lg-2 pr-3 mr-lg-2&quot;]/a[1]/div[@class=&quot;box&quot;]</value>
+      <value>/html[1]/body[1]/div[@class=&quot;page register funder&quot;]/main[@class=&quot;register ketentuan-pengguna&quot;]/div[@class=&quot;container text-center&quot;]/div[@class=&quot;box&quot;]/h5[@class=&quot;mb-0&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih jenis akun Kamu'])[1]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Registrasi Pemberi Dana'])[1]/following::h5[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Penerima Dana'])[1]/preceding::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DEFINISI'])[1]/preceding::h5[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ALAMI:'])[1]/preceding::h5[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Kebijakan Privasi &amp; Ketentuan Pengguna']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a/div</value>
+      <value>//h5</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = '
-                                    
-                                    Pemberi Dana
-                                    Gabung sebagaipemberi pembiayaan
-                                ' or . = '
-                                    
-                                    Pemberi Dana
-                                    Gabung sebagaipemberi pembiayaan
-                                ')]</value>
+      <value>//h5[(text() = 'Kebijakan Privasi &amp; Ketentuan Pengguna' or . = 'Kebijakan Privasi &amp; Ketentuan Pengguna')]</value>
    </webElementXpaths>
 </WebElementEntity>

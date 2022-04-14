@@ -19,19 +19,28 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.dispostable.com/inbox/ajirafael02108')
+WebUI.navigateToUrl('https://mail7.io/')
 
-WebUI.click(findTestObject('Object Repository/Page_Dispostable - Inbox for ajirafael02108_81cca7/strong_ALAMI Sharia - Aktivasi Akun'))
+WebUI.setText(findTestObject('Object Repository/Page_Mail 7 - Email workflow testing tool w_96df2e/input_QA Developers_username'), 
+	GlobalVariable.email)
 
-WebUI.click(findTestObject('Object Repository/Page_Dispostable - Message ALAMI Sharia - A_670385/a_Klik Untuk Aktivasi Email  Log-in'))
+WebUI.click(findTestObject('Object Repository/Page_Mail 7 - Email workflow testing tool w_96df2e/input_mail7.io_button is-primary w-50'))
+
+WebUI.click(findTestObject('Object Repository/Page_Mail 7 - Dashboard/p_Mina  ALAMI  no-replyalamisharia.co.id'))
+
+WebUI.switchToWindowTitle('Mail 7 - Dashboard')
+
+WebUI.click(findTestObject('Object Repository/Page_Mail 7 - Dashboard/a_Klik Untuk Aktivasi Email  Log-in'))
+
+WebUI.switchToWindowIndex(1)
 
 WebUI.click(findTestObject('Object Repository/Page_Daftar Sebagai Pemberi Dana  ALAMI Pee_40e437/a_Masuk ke Akun Saya'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Login  ALAMI Peer-to-Peer Lending Syariah/input_Assalamualaikum_username'), 
-    'ajirafael02108@dispostable.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login  ALAMI Peer-to-Peer Lending Syariah/input_Assalamualaikum_password'), 
-    'nwr9I1qT+J0GbQ++JlYjHw==')
-
-WebUI.click(findTestObject('Object Repository/Page_Login  ALAMI Peer-to-Peer Lending Syariah/a_Masuk Ke Akun Saya'))
+//WebUI.setText(findTestObject('Object Repository/Page_Login  ALAMI Peer-to-Peer Lending Syariah/input_Assalamualaikum_username'), 
+//    GlobalVariable.email)
+//
+//WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login  ALAMI Peer-to-Peer Lending Syariah/input_Assalamualaikum_password'), 
+//    'nwr9I1qT+J0GbQ++JlYjHw==')
+//
+//WebUI.click(findTestObject('Object Repository/Page_Login  ALAMI Peer-to-Peer Lending Syariah/a_Masuk Ke Akun Saya'))
 

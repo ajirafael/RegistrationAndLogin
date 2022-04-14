@@ -3,12 +3,8 @@
    <description></description>
    <name>input_Saya sudah membaca dan setuju dengan__c3b002</name>
    <tag></tag>
-   <elementGuidId>b614ff01-d325-4671-9d6a-ecf3e632ed99</elementGuidId>
+   <elementGuidId>cd79f52d-cd47-444a-a7cb-edae9110bde1</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;setujuKebijakan&quot;)[count(. | //*[@type = 'checkbox' and @name = 'setujuKebijakan' and @id = 'setujuKebijakan']) = count(//*[@type = 'checkbox' and @name = 'setujuKebijakan' and @id = 'setujuKebijakan'])]</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='setujuKebijakan']</value>
@@ -18,7 +14,7 @@
          <value>#setujuKebijakan</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +45,7 @@
       <value>setujuKebijakan</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

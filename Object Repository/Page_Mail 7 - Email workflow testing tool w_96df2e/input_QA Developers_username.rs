@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_View message_button</name>
+   <name>input_QA Developers_username</name>
    <tag></tag>
-   <elementGuidId>f50bb8e9-fd83-4f0a-9906-2ad954235f0d</elementGuidId>
+   <elementGuidId>c449cadf-6183-4332-bed1-f325b3d6dce5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input.button</value>
+         <key>XPATH</key>
+         <value>//input[@name='username']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@value='View the email message']</value>
+         <key>CSS</key>
+         <value>input[name=&quot;username&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,59 +24,59 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>name</name>
       <type>Main</type>
-      <value>button</value>
+      <value>username</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>class</name>
       <type>Main</type>
-      <value>View the email message</value>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>mailbutton</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;content&quot;)/form[1]/p[1]/input[@class=&quot;button&quot;]</value>
+      <value>/html[1]/body[1]/main[1]/section[@class=&quot;hero my-80 text-center&quot;]/div[@class=&quot;container&quot;]/form[@class=&quot;inboxform text-center form-inline justify-content-center ng-pristine ng-valid&quot;]/div[@class=&quot;input-group form-group&quot;]/input[@class=&quot;form-control&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='View the email message']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='content']/form/p/input</value>
+      <value>//input[@name='username']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//p/input</value>
+      <value>//input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'submit']</value>
+      <value>//input[@name = 'username' and @type = 'text']</value>
    </webElementXpaths>
 </WebElementEntity>

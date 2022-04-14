@@ -10,11 +10,23 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>479b365a-3e10-4d6e-a4ad-2efcf2590091</testSuiteGuid>
+   <testSuiteGuid>61be5f4a-184b-45e1-9ae0-780795bd4350</testSuiteGuid>
    <testCaseLink>
-      <guid>87093bcf-8034-4548-b1bc-54cb47a37dd1</guid>
+      <guid>a31a9b9a-bac1-49f9-953b-9586bba5c24c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Registration</testCaseId>
+      <testCaseId>Test Cases/Regis</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bd43e612-a7c8-4b22-9ec8-7280fa670ace</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Activation</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d4741dc7-b0a7-491e-8331-3e47fa445932</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

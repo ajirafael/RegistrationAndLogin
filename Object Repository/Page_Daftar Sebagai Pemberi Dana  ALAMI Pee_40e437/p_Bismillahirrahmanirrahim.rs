@@ -3,15 +3,15 @@
    <description></description>
    <name>p_Bismillahirrahmanirrahim</name>
    <tag></tag>
-   <elementGuidId>09520a4f-ba75-491a-b5e3-b1c694bb33b2</elementGuidId>
+   <elementGuidId>bf7bedd0-dd0e-42fe-9992-2af66aff32ed</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#scrollWrapper > p</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='scrollWrapper']/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#scrollWrapper > p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -85,5 +85,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/p</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Bismillahirrahmanirrahim' or . = 'Bismillahirrahmanirrahim')]</value>
    </webElementXpaths>
 </WebElementEntity>

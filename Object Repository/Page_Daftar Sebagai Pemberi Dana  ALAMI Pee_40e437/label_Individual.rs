@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Individual</name>
    <tag></tag>
-   <elementGuidId>4254c24a-b196-4f9e-951f-3f0dd7ed6d54</elementGuidId>
+   <elementGuidId>d5109dca-97a3-4a70-86ac-ba80e6ecd278</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lemah'])[1]/following::label[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sangat Kuat'])[1]/following::label[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
